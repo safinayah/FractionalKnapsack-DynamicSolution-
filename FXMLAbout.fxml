@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="TimeLabel" prefHeight="261.0" prefWidth="496.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication23.FXMLAboutController">
+   <children>
+      <Label layoutX="243.0" layoutY="77.0" prefHeight="21.0" prefWidth="72.0" text="O(N*M)" />
+      <Label layoutX="14.0" layoutY="7.0" prefHeight="44.0" prefWidth="260.0" text="About">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="RelationLabel" layoutX="248.0" layoutY="131.0" text="gegtgtg" />
+      <Button fx:id="TimeComp" layoutX="57.0" layoutY="75.0" mnemonicParsing="false" onAction="#about" text="Time Complexity )">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="rel" layoutX="85.0" layoutY="126.0" mnemonicParsing="false" onAction="#relation" text="Realtion">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="closeButton" layoutX="206.0" layoutY="198.0" mnemonicParsing="false" onAction="#closeButtonAction" text="close" />
+   </children>
+</AnchorPane>

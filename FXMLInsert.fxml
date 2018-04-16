@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication23.FXMLInsertController">
+   <children>
+      <Label layoutX="63.0" layoutY="14.0" prefHeight="70.0" prefWidth="459.0" text="Data Insertion ">
+         <font>
+            <Font size="59.0" />
+         </font>
+      </Label>
+      <Button fx:id="Inser" layoutX="14.0" layoutY="124.0" mnemonicParsing="false" onAction="#InsertMax" text="Insert Max number of Hours you can work">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <TextField fx:id="maxlbl" layoutX="415.0" layoutY="128.0" />
+      <Button fx:id="ans" layoutX="14.0" layoutY="196.0" mnemonicParsing="false" onAction="#Answer" prefHeight="32.0" prefWidth="382.0" text="Highest profit can be achived">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Label fx:id="answer" layoutX="419.0" layoutY="199.0" prefHeight="25.0" prefWidth="163.0" />
+   </children>
+</AnchorPane>

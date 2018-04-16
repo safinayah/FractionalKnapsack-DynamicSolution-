@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="331.0" prefWidth="438.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication23.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="153.0" layoutY="108.0" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="133.0" text="About" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Label layoutX="8.0" prefHeight="80.0" prefWidth="422.0" text="Welcome to job scedualing programme">
+         <font>
+            <Font size="21.0" />
+         </font></Label>
+      <Button fx:id="Insert" layoutX="153.0" layoutY="199.0" onAction="#handleButtonActionInsert" prefHeight="25.0" prefWidth="133.0" text="Insert " />
+      <Button fx:id="closeButton" layoutX="155.0" layoutY="243.0" mnemonicParsing="false" onAction="#closeButtonAction" prefHeight="25.0" prefWidth="133.0" text="close " />
+    </children>
+</AnchorPane>
